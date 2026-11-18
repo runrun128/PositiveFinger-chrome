@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "PositiveFinger — ことばが、ごほうびに。",
-  "version": "0.2.0",
+  "name": "ポジティブフィンガー",
+  "version": "0.2.1",
   "description": "使うページだけでオンにする、ポジティブなことばと相棒のChrome版プロトタイプ。入力文は送信・保存しません。",
   "permissions": [
     "activeTab",
@@ -16,10 +16,19 @@
     "type": "module"
   },
   "action": {
-    "default_title": "PositiveFinger",
-    "default_popup": "popup.html"
+    "default_title": "ポジティブフィンガー",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
   },
   "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
   "content_security_policy": {
